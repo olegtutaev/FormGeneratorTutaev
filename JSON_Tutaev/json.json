@@ -1,0 +1,94 @@
+{
+ "Name": "Name of Form",
+ "Items":
+	[
+		{
+		"Type":"filler",
+		"Message":"message in filter"
+		},
+		{"Type":"text",
+		"Name":"name1",
+		"Placeholder":"placeholder",
+		"Required":"True",
+		"Value":"",
+		"Label":"Label of TextInput",
+		"Class":"T1",
+		"Disabled":"False"
+		},
+		{"Type":"textArea",
+		"Name":"name2",
+		"Placeholder":"placeholder",
+		"Required":"True",
+		"Value":"",
+		"Label":"Label of TextArea",
+		"Class":"TA1",
+		"Disabled":"False"
+		},
+		{"Type":"checkbox",
+		"Name":"name3",
+		"Required":"True",
+		"Label":"Label of Checkbox",
+		"Class":"CB1",
+		"Value":"checkbox value",
+		"Disabled":"False"
+		},
+		{
+		"Type":"button",
+		"Class":"button class",
+		"Text":"ButtonText"
+		},
+		{
+		"Type":"select",
+		"Name":"name4",
+		"Required":"True",
+		"Value":"",
+		"Label":"Label of Checkbox",
+		"Class":"S1",
+		"Disabled":"False",
+		"Options":
+			[
+				[
+				"Option1",
+				"Option1",
+				"False"
+				],
+				[
+				"Option2",
+				"Option2",
+				"False"
+				],
+				[
+				"Option3",
+				"Option3",
+				"True"
+				]
+			],
+		},
+		{
+		"Type":"radio",
+		"Name":"name5",
+		"Label":"Label of RadioButtons",
+		"Class":"R1",
+		"Disabled":"False",
+		"Items":
+			[
+				[
+				"Option1",
+				"Option1",
+				"False"
+				],
+				[
+				"Option2",
+				"Option2",
+				"False"
+				],
+				[
+				"Option3",
+				"Option3",
+				"True"
+				]
+			],
+		},
+	],
+ "PostMessage": "Message shown after communication"
+}

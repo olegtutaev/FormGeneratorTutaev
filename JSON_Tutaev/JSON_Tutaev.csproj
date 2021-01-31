@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Forms.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.12.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="NUnit" Version="3.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\ClassLibrary1\bin\Debug\netstandard2.0\ClassLibrary1.dll</HintPath>
+    </Reference>
+    <Reference Include="FormFromJSON">
+      <HintPath>..\..\DirectumTest-master\task1\FormFromJSON\FormFromJSON\bin\Debug\netstandard2.0\FormFromJSON.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
